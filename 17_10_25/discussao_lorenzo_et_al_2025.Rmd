@@ -1,0 +1,312 @@
+---
+title: "Discussão de Artigo Científico"
+author: "Dra. Fernanda Rodrigues de Avila"
+date: "2025-10-15"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css echo = FALSE}
+h1, h2, h3, h4, h5, h6 {
+  color: #8b5e5e; /* Cor específica para os títulos */
+}
+
+strong {
+  color: #bf4080; /* Cor específica para o texto em negrito */
+}
+```
+
+
+Nesta sessão vamos discutir o artigo **"Unravelling the cryptic diversity of the low-dispersal land planarian *Cephaloflexa bergi* to elucidate diversification processes in the Brazilian Atlantic Forest",** publicado em 2025 no Zoological Journal of the Linnean Society
+
+## Dinâmica da discussão:
+
+Seguiremos a estrutura do artigo científico comentando os aspectos mais relevantes de cada parte. 
+
+**A ideia é que todos possam acompanhar e contribuir, independentemente do nível de familiaridade com genética molecular ou análises filogenéticas.**
+
+
+**Lembrete: não existem perguntas bobas em ciência. Se algo não ficou claro, provavelmente outros colegas têm a mesma dúvida.** 
+
+## 1.  CONTEXTUALIZAÇÃO DO ESTUDO
+
+### 1.1.   O que é a Mata Atlântica Brasileira?
+
+Hotspot de biodiversidade (4º maior do mundo) Fragmentação severa: 92%
+da cobertura original perdida Importância das áreas protegidas (PAs) Por
+que estudar a MAB é urgente?
+
+### 1.2 O modelo de estudo: planárias terrestres
+
+O que são planárias terrestres? Características básicas Por que são bons
+modelos para estudos evolutivos?
+
+Baixa capacidade de dispersão Alta dependência de habitat úmido
+Sensibilidade a mudanças ambientais
+
+*Cephaloflexa bergi*: apresentação da espécie
+
+### 1.3 Conceitos fundamentais
+
+O que são espécies crípticas? Complexo de espécies vs. espécie única
+Filogeografia: estudando a história evolutiva através da geografia
+
+## 2.  OBJETIVOS E HIPÓTESES DO ESTUDO:
+
+*C. bergi* é uma única espécie ou um complexo de espécies? Como a
+diversidade genética está estruturada geograficamente? Quais processos
+evolutivos e geológicos moldaram essa diversidade? Existe reprodução
+assexuada nesta espécie?
+
+## 3.  METODOLOGIA:
+
+### 3.1 Coleta e identificação
+
+15 áreas protegidas em São Paulo e Rio de Janeiro Identificação
+morfológica preliminar Importância de vouchers e códigos únicos
+
+### 3.2 Marcadores moleculares utilizados Discussão: 
+
+Por que usar múltiplos marcadores? 
+
+#### Marcador mitocondrial (COI)
+
+O que é o gene **COI**? 
+**Vantagens:** alta variabilidade, herança materna, sem recombinação Limitações: representa apenas a história materna
+
+#### Marcadores nucleares (DOM4, DOM5, DOM6)
+
+Novos marcadores desenvolvidos para este estudo **DOM4** e **DOM5**: proteína de
+choque térmico (hsp70) **DOM6**: lactato desidrogenase Vantagens: herança biparental, maior resolução
+
+### 3.3 Análises filogenéticas Conceitos para discutir:
+
+Árvore filogenética: o que representa? 
+
+Máxima Verossimilhança (ML) vs. Inferência Bayesiana (BI) 
+
+Valores de suporte: bootstrap e probabilidade posterior O que significa "clado monofilético"?
+
+### 3.4 Genética de populações Estatísticas básicas:
+
+**Diversidade haplotípica (HD):** quantos haplótipos diferentes?
+**Diversidade nucleotídica (π):** quão diferentes são esses haplótipos?
+**FST:** mede diferenciação genética entre populações
+
+Valores próximos de 0 = populações similares Valores próximos de 1 =
+populações muito diferentes
+
+#### Análises de estrutura populacional:
+
+**PCA (Análise de Componentes Principais):** visualizando agrupamentos
+**STRUCTURE:** identificando clusters genéticos e mistura Isolamento por
+**distância:** distância geográfica prediz distância genética?
+
+### 3.5 Delimitação de espécies Métodos de descoberta:
+
+**GMYC e mPTP:** identificam potenciais espécies a partir de árvores
+filogenéticas
+
+#### Métodos de validação:
+
+**BPP e BFD:** testam hipóteses de delimitação com dados multilocus
+
+## 4.  RESULTADOS:
+
+### 4.1 Descoberta surpreendente: 
+
+Efeito Meselson em mosaico 
+
+#### Discussão:
+
+* O que foi encontrado ao clonar o gene **DOM4**? 
+Indivíduos com múltiplos haplótipos muito divergentes 
+
+* O que isso sugere sobre reprodução?
+Possível reprodução por fissão (assexuada) 
+Acúmulo de linhagens celulares distintas
+
+* Por que a população de Campos do Jordão (CJ) não mostrou esse padrão?
+
+### 4.2 A grande divisão: Leste vs. Oeste 
+
+#### Observações:
+
+Todas as análises mostram dois clados principais 
+Separação geográfica clara 
+Alta divergência genética entre os grupos
+
+#### Interpretação:
+
+**Barreira geográfica atual:** urbanização de São Paulo, rios Tietê e
+**Paraíba do Sul Origem antiga:** cerca de 7 milhões de anos atrás (Mioceno)
+**Processos geológicos do Neógeno:** Soerguimento da Serra do Mar Modificações climáticas e hidrográficas
+
+### 4.3 Zonas de contato secundário
+
+#### Localidades especiais: 
+Cambury (CAM) e Caraguatatuba (SMC)
+
+Indivíduos dos dois clados coexistem Evidência de fluxo gênico (introgressão) 
+
+**Possível explicação:** 
+flutuações do nível do mar no Pleistoceno
+
+Ciclos de isolamento e contato Últimos 2,5 milhões de anos
+
+
+#### Outras zonas de mistura:
+
+**Cubatão (CU):** duas populações distintas na mesma localidade Petroleiros
+**(PET) e Itatiaia (IT):** casos complexos
+
+### 4.4 Estruturação dentro dos clados: 
+
+#### Clado Leste (5 grupos):
+
+Menos estruturado Alta diversidade em IT e PET
+
+#### Clado Oeste (7 grupos):
+
+Mais estruturado Campos do Jordão (CJ): grupo único e isolado
+
+Menor diversidade genética de todas as localidades Possível efeito de
+deriva genética ou população pequena Isolamento pela Serra da
+Mantiqueira
+
+**Discussão:** Que fatores geográficos/ecológicos explicam essas diferenças?
+
+### 4.5 Padrões de diversidade genética
+
+#### Achados principais:
+
+COI mais variável que marcadores nucleares (esperado) 
+
+Maior diversidade:
+IT e PET Menor diversidade: CJ F_ST geralmente muito alto (\>0,8 para COI) 
+
+Isolamento por distância significativo para marcadores nucleares
+
+Teste de neutralidade (Tajima's D):
+Maioria das populações evoluindo neutralmente 
+Algumas exceções sugerem seleção ou expansão recente
+
+## 5.  DELIMITAÇÃO DE ESPÉCIES: 
+
+### 5.1 Resultados conflitantes entre métodos 
+#### Cenários propostos:
+
+**Cenário mínimo:** 2 espécies (Leste e Oeste) 
+**GMYC:** 14 espécies candidatas
+**mPTP:** 11 espécies candidatas 
+**BFD:** suporte variável dependendo do método
+
+### 5.2 O "dilema" taxonômico: 
+
+#### Discussão:
+
+* Por que é tão difícil delimitar espécies neste caso? 
+* Especiação é um processo contínuo Dados genéticos sozinhos são suficientes? 
+
+#### Importância de abordagem integrativa:
+
+Morfologia (aparelho copulatório) 
+Ecologia 
+Cariótipo 
+Múltiplos marcadores moleculares
+
+### 5.3 Implicações práticas:
+
+Subestimação da diversidade Impacto para conservação das áreas protegidas 
+Cada linhagem evolutiva independente merece proteção?
+
+## 6.  CONTEXTO EVOLUTIVO/BIOGEOGRÁFICO:
+
+### 6.1 Processos históricos que moldaram a diversidade: 
+
+#### Escala temporal:
+
+* **Neógeno (23-2.6 Ma):** Eventos de especiação inicial
+
+Soerguimento da Serra do Mar Mudanças climáticas Separação de drenagens
+
+* **Pleistoceno (2.58-0.01 Ma):** Contatos secundários
+
+Ciclos glaciais Flutuações do nível do mar Períodos de isolamento e
+conexão
+
+* **Holoceno e Antropoceno:** Fragmentação recente
+
+Últimos 500 anos de destruição Megacidade de São Paulo como barreira
+moderna
+
+### 6.2 Comparação com outros organismos da MAB:
+
+Padrões similares em outros grupos de baixa dispersão? 
+Áreas de estabilidade climática (refúgios)
+
+
+## 7.  PARA DEBATE:
+
+### Conceitual: 
+* O que define uma espécie? 
+* Como diferentes conceitos de espécie se aplicam a este caso? 
+
+### Metodológico: 
+* Qual a importância de usar múltiplos marcadores moleculares? 
+* E múltiplos métodos de análise?
+
+
+### Evolutivo: 
+* Como organismos de baixa dispersão podem apresentar tanta diversidade genética? 
+
+### Conservação: 
+Como esses resultados devem influenciar políticas de conservação na Mata Atlântica? 
+
+### Reprodução: 
+O efeito Meselson é vantajoso ou desvantajoso em ambientes fragmentados?
+
+### Biogeografia: 
+Que outras evidências (geológicas, paleoclimáticas) poderiam ser usadas para testar as hipóteses deste estudo? 
+
+### Taxonomia:
+Devemos descrever todas as linhagens como espécies diferentes antes de
+ter dados morfológicos?
+
+## 8.  REVISAR:
+
+* Espécies crípticas e complexos de espécies 
+
+* Filogeografia 
+
+* Marcadores moleculares (mitocondriais vs. nucleares) 
+
+* Diversidade genética (HD, π)
+
+* Diferenciação populacional (FST) 
+
+* Isolamento por distância 
+
+* Contato secundário e introgressão 
+
+* Efeito Meselson 
+
+* Refúgios pleistocênicos
+
+* Abordagem integrativa em taxonomia 
+
+* Hotspots de biodiversidade
+
+--------------------------------------------------------------------------------
+
+Dra. Fernanda Rodrigues de Avila
+
+<https://avilaf.github.io/>
+
+[fernandar.avila\@gmail.com](mailto:fernandar.avila@gmail.com){.email}
+
